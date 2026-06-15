@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "path": "mock-data.json",
+      "purpose": "Sample JSON database containing initialized file assets, folder models, collections records and system activity logs."
+    },
+    {
+      "path": "filespec.json",
+      "purpose": "JSON manifest mapping each modular file inside the Explorer digital assets platform to its corresponding architectural purpose."
+    },
+    {
+      "path": "filespec.md",
+      "purpose": "Markdown design document detailing file structures and core code separations across the front-end SPA workspace."
+    },
+    {
+      "path": "api.md",
+      "purpose": "REST API documentation outlining the simulated clientsiderest-endpoints and service data handlers."
+    },
+    {
+      "path": "functionspec.md",
+      "purpose": "Methodology document mapping every single logic helper, state reducer, and hook method to its operational goal."
+    },
+    {
+      "path": "src/types/explorer.ts",
+      "purpose": "Core TypeScript interfaces and enums representing files, folders, log histories, and state definitions."
+    },
+    {
+      "path": "src/logic/storage.ts",
+      "purpose": "Helper logic for storage calculations, byte sizing formatting, type charts mapper, and state persistence wrapper."
+    },
+    {
+      "path": "src/logic/fileState.ts",
+      "purpose": "Pure functional operations modifying folders and files, supporting child folder collections and drag operations."
+    },
+    {
+      "path": "src/logic/explorerEngine.ts",
+      "purpose": "Utility business logic to handle breadcrumbs, simulated search filters, chronological log triggers, and MIME type detectors."
+    },
+    {
+      "path": "src/hooks/useExplorer.ts",
+      "purpose": "Encapsulated Custom state React Hook managing all asset storage interactions, effects, and modal toggles with zero rendering markup."
+    },
+    {
+      "path": "src/components/Sidebar.tsx",
+      "purpose": "Visual design navigation container containing navigation menu, quotas block, and create actions triggers."
+    },
+    {
+      "path": "src/components/StorageOverview.tsx",
+      "purpose": "Visualization component representing storage capacity via interactive circular SVG progress ring."
+    },
+    {
+      "path": "src/components/DashboardView.tsx",
+      "purpose": "Primary landing dashboard showing search hero, storage stats, dynamic file charts comparisons, and recent items."
+    },
+    {
+      "path": "src/components/FileBrowserView.tsx",
+      "purpose": "Asset browsing view supporting folder navigation, dynamic list/grid toggles, and multi-file interactive grids."
+    },
+    {
+      "path": "src/components/FolderCard.tsx",
+      "purpose": "Interactive folder button supporting native HTML5 drop zone highlights to relocate inner files."
+    },
+    {
+      "path": "src/components/FileCard.tsx",
+      "purpose": "Interactive file button with options drawer to toggle stars, trigger deletes, or invoke preview layers."
+    },
+    {
+      "path": "src/components/ActivityView.tsx",
+      "purpose": "Visual timeline log component representing file actions chronologically."
+    },
+    {
+      "path": "src/components/UploadModal.tsx",
+      "purpose": "Simulated drag and drop upload overlay, accepting drag-and-drops directly from user OS file explorers."
+    },
+    {
+      "path": "src/components/NewFolderModal.tsx",
+      "purpose": "Modal containing form inputs to create folders."
+    },
+    {
+      "path": "src/components/QuickPreviewModal.tsx",
+      "purpose": "Overlay modal containing bespoke interactive preview modules based on document, sheet or image type."
+    },
+    {
+      "path": "src/components/SettingsView.tsx",
+      "purpose": "Settings menu containing database purges and simulated configurations blocks."
+    },
+    {
+      "path": "src/App.tsx",
+      "purpose": "General layout assembly mapping top navigations, global search, view routing, and modals rendering."
+    }
+  ]
+}

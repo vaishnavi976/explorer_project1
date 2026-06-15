@@ -1,0 +1,171 @@
+{
+  "files": [
+    {
+      "id": "file-1",
+      "name": "Project Proposal.pdf",
+      "type": "pdf",
+      "size": 4350000,
+      "parentId": "folder-1",
+      "isFavorite": true,
+      "isRecent": true,
+      "isTrash": false,
+      "createdAt": "2026-06-12T14:30:00.000Z",
+      "lastViewedAt": "2026-06-14T10:15:00.000Z"
+    },
+    {
+      "id": "file-2",
+      "name": "Design Mockup.png",
+      "type": "image",
+      "size": 12400000,
+      "parentId": "folder-1",
+      "isFavorite": true,
+      "isRecent": true,
+      "isTrash": false,
+      "createdAt": "2026-06-13T09:15:00.000Z",
+      "lastViewedAt": "2026-06-14T12:45:00.000Z"
+    },
+    {
+      "id": "file-3",
+      "name": "Sales Forecast Q3.xlsx",
+      "type": "sheet",
+      "size": 2800000,
+      "parentId": "folder-2",
+      "isFavorite": false,
+      "isRecent": true,
+      "isTrash": false,
+      "createdAt": "2026-06-10T11:00:00.000Z",
+      "lastViewedAt": "2026-06-13T16:20:00.000Z"
+    },
+    {
+      "id": "file-4",
+      "name": "Product Specs.docx",
+      "type": "document",
+      "size": 1850000,
+      "parentId": "folder-2",
+      "isFavorite": false,
+      "isRecent": false,
+      "isTrash": false,
+      "createdAt": "2026-06-08T15:30:00.000Z",
+      "lastViewedAt": "2026-06-09T11:00:00.000Z"
+    },
+    {
+      "id": "file-5",
+      "name": "Promo Video.mp4",
+      "type": "video",
+      "size": 89400000,
+      "parentId": "folder-3",
+      "isFavorite": true,
+      "isRecent": true,
+      "isTrash": false,
+      "createdAt": "2026-06-14T08:00:00.000Z",
+      "lastViewedAt": "2026-06-14T15:30:00.000Z"
+    },
+    {
+      "id": "file-6",
+      "name": "App Icon.svg",
+      "type": "image",
+      "size": 45000,
+      "parentId": "folder-4",
+      "isFavorite": false,
+      "isRecent": false,
+      "isTrash": false,
+      "createdAt": "2026-06-05T10:00:00.000Z",
+      "lastViewedAt": "2026-06-05T10:05:00.000Z"
+    },
+    {
+      "id": "file-7",
+      "name": "Presentation.pptx",
+      "type": "presentation",
+      "size": 15600000,
+      "parentId": null,
+      "isFavorite": false,
+      "isRecent": true,
+      "isTrash": false,
+      "createdAt": "2026-06-14T11:00:00.000Z",
+      "lastViewedAt": "2026-06-14T16:10:00.000Z"
+    },
+    {
+      "id": "file-8",
+      "name": "Archived Draft.zip",
+      "type": "archive",
+      "size": 45000000,
+      "parentId": null,
+      "isFavorite": false,
+      "isRecent": false,
+      "isTrash": true,
+      "createdAt": "2026-05-20T10:00:00.000Z",
+      "lastViewedAt": "2026-05-20T10:00:00.000Z"
+    }
+  ],
+  "folders": [
+    {
+      "id": "folder-1",
+      "name": "Design Assets",
+      "parentId": null,
+      "isFavorite": true,
+      "createdAt": "2026-06-01T09:00:00.000Z"
+    },
+    {
+      "id": "folder-2",
+      "name": "Business Documents",
+      "parentId": null,
+      "isFavorite": false,
+      "createdAt": "2026-06-02T10:00:00.000Z"
+    },
+    {
+      "id": "folder-3",
+      "name": "Marketing Media",
+      "parentId": null,
+      "isFavorite": false,
+      "createdAt": "2026-06-03T11:00:00.000Z"
+    },
+    {
+      "id": "folder-4",
+      "name": "Brand Identity",
+      "parentId": "folder-1",
+      "isFavorite": false,
+      "createdAt": "2026-06-04T12:00:00.000Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1",
+      "userId": "vaishchaudhari976@gmail.com",
+      "userName": "Vaish Chaudhari",
+      "action": "viewed",
+      "targetName": "Promo Video.mp4",
+      "targetType": "file",
+      "timestamp": "2026-06-14T15:30:00.000Z"
+    },
+    {
+      "id": "act-2",
+      "userId": "vaishchaudhari976@gmail.com",
+      "userName": "Vaish Chaudhari",
+      "action": "uploaded",
+      "targetName": "Design Mockup.png",
+      "targetType": "file",
+      "timestamp": "2026-06-13T09:15:00.000Z"
+    },
+    {
+      "id": "act-3",
+      "userId": "vaishchaudhari976@gmail.com",
+      "userName": "Vaish Chaudhari",
+      "action": "created_folder",
+      "targetName": "Brand Identity",
+      "targetType": "folder",
+      "timestamp": "2026-06-04T12:00:00.000Z"
+    }
+  ],
+  "collections": [
+    {
+      "id": "col-1",
+      "name": "Quarterly Reviews",
+      "fileIds": ["file-3", "file-1"]
+    },
+    {
+      "id": "col-2",
+      "name": "Website Launch",
+      "fileIds": ["file-2", "file-6", "file-5"]
+    }
+  ]
+}
